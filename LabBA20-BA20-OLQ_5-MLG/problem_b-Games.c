@@ -4,7 +4,7 @@
 // main function with returning value 0
 int main() {
 	// initialize variable for test cases and index for counting
-	int testCase, index;
+	int testCase, indexCase;
 	
 	// scan user input ( integer ) for how many test cases
 	scanf("%d", &testCase);
@@ -12,7 +12,7 @@ int main() {
 	getchar();
 	
 	// begin to test cases, using for loop
-	for (index = 1; index <= testCase; index++) {
+	for (indexCase = 1; indexCase <= testCase; indexCase++) {
 		// initialize variable for length of 1 game ( per test case ), and char counter to count who are winning
 		int gameLength, charCounter;
 		
