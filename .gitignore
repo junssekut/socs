@@ -3,3 +3,6 @@
 
 # executables
 *.exe
+
+# not done
+*not-done*
