@@ -1,1 +1,5 @@
-README.md.backup
+# readme.md backup file
+*.backup
+
+# executables
+*.exe

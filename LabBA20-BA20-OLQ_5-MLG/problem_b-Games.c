@@ -23,7 +23,7 @@ int main() {
 		// initialize string variable for who won and who loses
 		char result[256];
 		
-		// scan user input for game results ex: LBLBLBLBLB means lili won 5 and bibi won 5, it will be count as tie and the output is "None"
+		// scan user input for game results ex: LBLBLBLBLB means lili won 5 and bibi won 5, it will be counted as tie and the output is "None"
 		scanf("%s", result);
 		
 		getchar();
@@ -43,15 +43,15 @@ int main() {
 					
 		}
 
-		// condition where lili won more than bibi, the output will be 'Lili' with an '\n' at the end of it
+		// condition where lili have won more than bibi, the output will be 'Lili' with an '\n' at the end of it
 		if (lili > bibi)
 			printf("Lili\n");
 			
-		// condition where no one won more than the other, the output will be 'None' with an '\n' at the end of it
+		// condition where no one have won more than the other, the output will be 'None' with an '\n' at the end of it
 		if (lili == bibi)
 			printf("None\n");
 			
-		// condition where bibi won more than lili, the output will be 'Bibi' with an '\n' at the end of it
+		// condition where bibi have won more than lili, the output will be 'Bibi' with an '\n' at the end of it
 		if (bibi > lili)
 			printf("Bibi\n");
 		
